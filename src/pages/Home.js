@@ -38,7 +38,7 @@ export function Home() {
 
       <FlatList
         data={mySkills}
-        keyExtractor={item => item}
+        keyExtractor={() => Math.random()}
         renderItem={({ item }) => <SkillCard skill={item} />}
       />
     </View>
