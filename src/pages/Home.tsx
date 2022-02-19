@@ -38,11 +38,11 @@ export function Home() {
     const currentHour = new Date().getHours()
 
     if (currentHour < 12) {
-      setGreeting('Good morning!')
+      setGreeting('Good Morning!')
     } else if (currentHour >= 12 && currentHour < 18) {
-      setGreeting('Good afternoon!')
+      setGreeting('Good Afternoon!')
     } else {
-      setGreeting('Good night!')
+      setGreeting('Good Night!')
     }
   }, [])
 
