@@ -6,7 +6,7 @@
 * Usando conceitos importantes como:
   * Estados e imutabilidade, como funciona os hooks ( useState, useEffect);
   * Integrando typeScript no projeto, possibilitando fazer tipagem estados, objetos e propriedades utilizando interface;
-  * Criação de componentes, para manter de forma organizado e facilidade em manutenção, quando necessário, ou mudar estilização;!
+  * Criação de componentes, para manter de forma organizado e facilidade em manutenção, quando necessário, ou mudar estilização;
   * Entender como funciona logBox, para encontrar lidar com erros, e resolve-lo da melhor forma;
   * Como fazer debug no React native;
   * Estilização agradável;
